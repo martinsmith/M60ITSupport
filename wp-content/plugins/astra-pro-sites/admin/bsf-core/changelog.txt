@@ -1,0 +1,48 @@
+### Version - 1.29.19
+# Fix: A license check answered by a firewall or error page was read as "license invalid" and cached for six hours, so the product showed as deactivated while the key was still active.
+# Fix: An unreadable reply is no longer cached as an answer for six hours. The stored status is kept for an hour instead, so a passing glitch clears on the next check.
+# Fix: A non-200 reply to the update check was still parsed, and an error payload reached the caller as a boolean where a product list was expected, causing a `foreach` warning.
+
+### Version - 1.29.18
+# Fix: "Enable auto-updates" link was missing for BSF products on the Plugins and Themes screens — up to date products are now added to the `no_update` list of the update transients, so WordPress treats them as update-supported and renders the auto-updates UI (WordPress 5.5+ requirement).
+# Fix: Unlicensed products and beta versions are no longer installed unattended — an unlicensed product has no downloadable package, and betas are excluded by policy. Both stay available for a manual update, and the toggle stays visible.
+
+### Version - 1.29.17
+# Security Fix: The `force-check-update` and `force-check` GET handlers ran without a capability check, so an unauthenticated request could trigger a product update check. They now require the `manage_options` capability.
+
+### Version - 1.29.16
+# Fix: Second consecutive rollback installed the latest version instead of the selected one — the update filter overwrote the rollback package in the update_plugins transient. Rollbacks now skip it via the new `bsf_skip_update_transient_data` filter.
+
+### Version - 1.29.15
+# Fix: Same version was offered as an update again right after updating — stored product version could go stale, causing a repeated "update available" notice and same-version reinstall loops with duplicate emails on auto-update (cron) sites. Update checks now compare against the version installed on disk.
+
+### Version - 1.29.14
+# New: Added license expiry helper functions and store/clear `expires` field from API response.
+
+### Version - 1.29.13
+# Fix: Updated textdomain from 'bsf' to 'bsf-core' to align with plugin slug.
+
+### Version - 1.29.12
+# Security Fix: Added nonce verification and capability checks to `reset-bsf-users` and `remove-bundled-products` GET parameter handlers to prevent CSRF attacks.
+
+### Version - 1.29.11
+# Improvement: Absolute path for file inclusion.
+
+### Version - 1.21
+# Support for beta updates of the products.
+
+### Version - 1.19
+
+- License Manager v2.0 - Allow plugins to individually set the license form.
+- Update themes and plugins with WordPress's transients. so support for WP-CLI and any other website management tools.
+- New License manager API.
+- Improvement: Force check product update now works when WordPress updates are force checked.
+- Slight redesign of help and debug settings screens.
+- Support for white label with filters.
+- Option to move Brainstorm registration menu in settings.
+- Hide purchase key when it is validated.
+- Remove use of deprecated 'mysql_' functions.
+- Allow users to skip brainstorm account registration.
+- Allow plugins/themes to completely hide the screen for Brainstorm Registration.
+- Allow using staging API server for development.
+- Fix: Occasional PHP fatal errors when using the child theme.

@@ -1,0 +1,127 @@
+/* -----------------------------------------------------------------------
+ * Modern AI pages — universal Elementor widget editing (data-id)
+ * ----------------------------------------------------------------------- */
+body.lc-ai-page-modern .elementor-widget-heading:hover,
+body.lc-ai-page-modern .elementor-widget-text-editor:hover,
+body.lc-ai-page-modern .elementor-widget-button:hover {
+  outline: 2px solid #84adff !important;
+  outline-offset: -2px !important;
+  border-radius: 4px !important;
+  position: relative !important;
+  z-index: 10 !important;
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-modern .elementor-widget-icon-box {
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-modern .elementor-widget-icon-box .elementor-icon-box-title:hover,
+body.lc-ai-page-modern
+  .elementor-widget-icon-box
+  .elementor-icon-box-description:hover {
+  outline: 2px solid #84adff !important;
+  outline-offset: -2px !important;
+  border-radius: 4px !important;
+  position: relative !important;
+  z-index: 10 !important;
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-modern .elementor-widget-image {
+  position: relative !important;
+}
+
+body.lc-ai-page-modern .elementor-widget-image:hover {
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-modern .elementor-widget-image img {
+  transition: filter 0.2s ease;
+}
+
+body.lc-ai-page-modern .elementor-widget-image:hover img {
+  filter: blur(3px);
+}
+
+body.lc-ai-page-modern
+  .elementor-widget-image:hover
+  .leadconnector-regenerate-image-overlay {
+  display: flex;
+}
+
+/* -----------------------------------------------------------------------
+ * Legacy AI pages — only the 4 supported text classes + 2 image classes
+ * ----------------------------------------------------------------------- */
+body.lc-ai-page-legacy .hero-heading-class:hover,
+body.lc-ai-page-legacy .hero-description-class:hover,
+body.lc-ai-page-legacy .about-us-story-content-class:hover,
+body.lc-ai-page-legacy .about-us-story-header-class:hover {
+  outline: 2px dashed #84adff !important;
+  outline-offset: 4px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-legacy .hero-image-class,
+body.lc-ai-page-legacy .about-us-image-class {
+  position: relative !important;
+}
+
+body.lc-ai-page-legacy .hero-image-class:hover,
+body.lc-ai-page-legacy .about-us-image-class:hover {
+  cursor: pointer !important;
+}
+
+body.lc-ai-page-legacy .hero-image-class img,
+body.lc-ai-page-legacy .about-us-image-class img {
+  transition: filter 0.2s ease;
+}
+
+body.lc-ai-page-legacy .hero-image-class:hover img,
+body.lc-ai-page-legacy .about-us-image-class:hover img {
+  filter: blur(3px);
+}
+
+body.lc-ai-page-legacy .hero-image-class:hover .leadconnector-regenerate-image-overlay,
+body.lc-ai-page-legacy
+  .about-us-image-class:hover
+  .leadconnector-regenerate-image-overlay {
+  display: flex;
+}
+
+/* -----------------------------------------------------------------------
+ * Shared overlay button
+ * ----------------------------------------------------------------------- */
+.leadconnector-regenerate-image-overlay {
+  position: absolute !important;
+  z-index: 9999 !important;
+  display: none;
+  align-items: center !important;
+  padding: 10px 20px !important;
+  background: #fff !important;
+  color: #1a1a1a !important;
+  border: none !important;
+  border-radius: 999px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15) !important;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease !important;
+  line-height: 1 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  min-height: auto !important;
+}
+
+.leadconnector-regenerate-image-overlay:hover {
+  transform: translate(-50%, -50%) scale(1.05) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
+  background: #fff !important;
+  color: #1a1a1a !important;
+}

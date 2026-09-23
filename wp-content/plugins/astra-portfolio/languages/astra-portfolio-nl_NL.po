@@ -1,0 +1,965 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: gpt-po v1.2.0\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-06T19:19:39+00:00\n"
+"PO-Revision-Date: 2024-12-06T19:19:39+00:00\n"
+"Language: \n"
+
+#. Plugin Name of the plugin
+#: astra-portfolio.php
+#: classes/class-astra-portfolio-page.php:1176
+msgid "WP Portfolio"
+msgstr "WP Portfolio"
+
+#. Plugin URI of the plugin
+#: astra-portfolio.php
+msgid "http://www.wpastra.com/pro/"
+msgstr "http://www.wpastra.com/pro/"
+
+#. Description of the plugin
+#: astra-portfolio.php
+msgid "Display the portfolio of Starter Templates & other portfolio items easily on your website."
+msgstr "Toon de portfolio van Starter Templates en andere portfolio-items eenvoudig op uw website."
+
+#. Author of the plugin
+#: astra-portfolio.php
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Author URI of the plugin
+#: astra-portfolio.php
+msgid "http://www.brainstormforce.com"
+msgstr "http://www.brainstormforce.com"
+
+#: admin/astra-notices/class-astra-notices.php:125
+msgid "WordPress Nonce not validated."
+msgstr "WordPress Nonce niet gevalideerd."
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "Wilt u helpen om <strong>%1s</strong> nog beter te maken? Sta ons toe om niet-gevoelige diagnostische gegevens en gebruiksinformatie te verzamelen."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr "Dit is van toepassing op alle sites van het netwerk."
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr "Meer weten."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "Ja! Sta het toe"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "Nee bedankt"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:364
+msgid "Usage Tracking"
+msgstr "Gebruikstracering"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:408
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "Sta %s producten toe om niet-gevoelige gebruikstraceringgegevens te volgen."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:411
+msgid " This will be applicable for all sites from the network."
+msgstr " Dit is van toepassing op alle sites van het netwerk."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:416
+msgid "Learn More."
+msgstr "Meer leren."
+
+#. translators: %1$s portfolio page url.
+#: classes/batch-processing/class-astra-portfolio-batch.php:101
+msgid "Starter Templates have been imported as portfolio items! Please <a href=\"%1$s\">take a look</a> and publish the ones that you like."
+msgstr "Starter Templates zijn geïmporteerd als portfolio-items! Bekijk <a href=\"%1$s\">dit</a> en publiceer de items die je leuk vindt."
+
+#: classes/batch-processing/class-astra-portfolio-batch.php:131
+msgid "Syncing template library in the background. The process can take anywhere between 10 to 15 minutes. We will notify you once done."
+msgstr "Templatebibliotheek wordt op de achtergrond gesynchroniseerd. Het proces kan tussen de 10 en 15 minuten duren. We zullen je informeren zodra het klaar is."
+
+#. translators: %1$s is error message and %2$s is image URL
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:191
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:213
+msgid "IMAGE: Failed! WP Error - %1$s %2$s"
+msgstr "AFBEELDING: Mislukt! WP Fout - %1$s %2$s"
+
+#. translators: %1$s is error response code and %2$s is image URL
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:195
+msgid "IMAGE: Failed! Invalid Response Code %1$s! Expected response code 200 - %2$s"
+msgstr "AFBEELDING: Mislukt! Ongeldige Reactiecode %1$s! Verwachte reactiecode 200 - %2$s"
+
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:198
+msgid "IMAGE: Failed! Empty image content."
+msgstr "AFBEELDING: Mislukt! Lege afbeeldingsinhoud."
+
+#. translators: %d are the minutes.
+#: classes/batch-processing/helpers/class-wp-background-process.php:444
+msgid "Every %d Minutes"
+msgstr "Elke %d minuten"
+
+#: classes/class-astra-portfolio-admin.php:198
+msgid "Post updated."
+msgstr "Bericht bijgewerkt."
+
+#: classes/class-astra-portfolio-admin.php:199
+msgid "Post published."
+msgstr "Bericht gepubliceerd."
+
+#: classes/class-astra-portfolio-admin.php:200
+msgid "Post submitted."
+msgstr "Bericht ingediend."
+
+#: classes/class-astra-portfolio-admin.php:201
+msgid "Post scheduled."
+msgstr "Bericht gepland."
+
+#: classes/class-astra-portfolio-admin.php:202
+msgid "Post draft updated."
+msgstr "Berichtconcept bijgewerkt."
+
+#: classes/class-astra-portfolio-admin.php:262
+#: classes/class-astra-portfolio-admin.php:443
+msgid "Add image"
+msgstr "Afbeelding toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:284
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:247
+msgid "Portfolio Settings"
+msgstr "Portfolio-instellingen"
+
+#: classes/class-astra-portfolio-admin.php:328
+msgid "Portfolio Type"
+msgstr "Portfolio-type"
+
+#: classes/class-astra-portfolio-admin.php:336
+msgid "Thumbnail Image"
+msgstr "Miniatuurafbeelding"
+
+#: classes/class-astra-portfolio-admin.php:351
+msgid "Enter URL"
+msgstr "Voer URL in"
+
+#: classes/class-astra-portfolio-admin.php:355
+msgid "Open in New Tab"
+msgstr "Open in nieuw tabblad"
+
+#: classes/class-astra-portfolio-admin.php:361
+#: classes/class-astra-portfolio-admin.php:412
+msgid "Add Call-to-action"
+msgstr "Call-to-action toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:364
+#: classes/class-astra-portfolio-admin.php:415
+msgid "This allows you to add a call-to-action on the preview bar."
+msgstr "Dit stelt je in staat om een call-to-action toe te voegen aan de previewbalk."
+
+#: classes/class-astra-portfolio-admin.php:373
+msgid "Portfolio Image"
+msgstr "Portfolio-afbeelding"
+
+#: classes/class-astra-portfolio-admin.php:388
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: classes/class-astra-portfolio-admin.php:401
+msgid "Open Portfolio Item in"
+msgstr "Portfolio-item openen in"
+
+#: classes/class-astra-portfolio-admin.php:404
+msgid "New Tab"
+msgstr "Nieuw tabblad"
+
+#: classes/class-astra-portfolio-admin.php:405
+msgid "Same Tab"
+msgstr "Zelfde tabblad"
+
+#: classes/class-astra-portfolio-admin.php:406
+msgid "iFrame"
+msgstr "iFrame"
+
+#: classes/class-astra-portfolio-admin.php:408
+msgid "Select where you wish to show a portfolio item when the user clicks on it."
+msgstr "Selecteer waar je een portfolio-item wilt tonen wanneer de gebruiker erop klikt."
+
+#: classes/class-astra-portfolio-admin.php:526
+msgid "Add New Portfolio"
+msgstr "Nieuwe portfolio toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:527
+msgid "New Portfolio"
+msgstr "Nieuwe portfolio"
+
+#: classes/class-astra-portfolio-admin.php:528
+msgid "Edit Portfolio"
+msgstr "Portfolio bewerken"
+
+#: classes/class-astra-portfolio-admin.php:529
+msgid "View Portfolio"
+msgstr "Portfolio bekijken"
+
+#: classes/class-astra-portfolio-admin.php:530
+#: classes/class-astra-portfolio-page.php:875
+msgid "All Portfolio Items"
+msgstr "Alle portfolio-items"
+
+#: classes/class-astra-portfolio-admin.php:531
+msgid "Search Portfolios"
+msgstr "Zoek portfolios"
+
+#: classes/class-astra-portfolio-admin.php:532
+msgid "Parent Portfolios:"
+msgstr "Ouderportfolios:"
+
+#: classes/class-astra-portfolio-admin.php:533
+msgid "No Portfolios found."
+msgstr "Geen portfolios gevonden."
+
+#: classes/class-astra-portfolio-admin.php:534
+msgid "No Portfolios found in Trash."
+msgstr "Geen portfolios gevonden in de prullenbak."
+
+#: classes/class-astra-portfolio-admin.php:541
+msgid "Description."
+msgstr "Beschrijving."
+
+#: classes/class-astra-portfolio-admin.php:581
+msgid "Search Categories"
+msgstr "Zoek categorieën"
+
+#: classes/class-astra-portfolio-admin.php:582
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: classes/class-astra-portfolio-admin.php:583
+msgid "Parent Categories"
+msgstr "Oudercategorieën"
+
+#: classes/class-astra-portfolio-admin.php:584
+msgid "Parent Categories:"
+msgstr "Oudercategorieën:"
+
+#: classes/class-astra-portfolio-admin.php:585
+msgid "Edit Categories"
+msgstr "Categorieën bewerken"
+
+#: classes/class-astra-portfolio-admin.php:586
+msgid "Update Categories"
+msgstr "Categorieën bijwerken"
+
+#: classes/class-astra-portfolio-admin.php:587
+msgid "Add New Categories"
+msgstr "Nieuwe categorieën toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:588
+msgid "New Categories Name"
+msgstr "Naam nieuwe categorieën"
+
+#: classes/class-astra-portfolio-admin.php:589
+#: classes/class-astra-portfolio-page.php:877
+#: classes/class-astra-portfolio-shortcode.php:98
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/class-astra-portfolio-admin.php:617
+msgid "Search Other Categories"
+msgstr "Zoek andere categorieën"
+
+#: classes/class-astra-portfolio-admin.php:618
+msgid "All Other Categories"
+msgstr "Alle andere categorieën"
+
+#: classes/class-astra-portfolio-admin.php:619
+msgid "Parent Other Categories"
+msgstr "Oudere andere categorieën"
+
+#: classes/class-astra-portfolio-admin.php:620
+msgid "Parent Other Categories:"
+msgstr "Oudere andere categorieën:"
+
+#: classes/class-astra-portfolio-admin.php:621
+msgid "Edit Other Categories"
+msgstr "Andere categorieën bewerken"
+
+#: classes/class-astra-portfolio-admin.php:622
+msgid "Update Other Categories"
+msgstr "Andere categorieën bijwerken"
+
+#: classes/class-astra-portfolio-admin.php:623
+msgid "Add New Other Categories"
+msgstr "Nieuwe andere categorieën toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:624
+msgid "New Other Categories Name"
+msgstr "Naam nieuwe andere categorieën"
+
+#: classes/class-astra-portfolio-admin.php:625
+#: classes/class-astra-portfolio-page.php:878
+msgid "Other Categories"
+msgstr "Andere categorieën"
+
+#: classes/class-astra-portfolio-admin.php:650
+msgid "Search Tags"
+msgstr "Zoek tags"
+
+#: classes/class-astra-portfolio-admin.php:651
+msgid "All Tags"
+msgstr "Alle tags"
+
+#: classes/class-astra-portfolio-admin.php:652
+msgid "Parent Tags"
+msgstr "Oudertags"
+
+#: classes/class-astra-portfolio-admin.php:653
+msgid "Parent Tags:"
+msgstr "Oudertags:"
+
+#: classes/class-astra-portfolio-admin.php:654
+msgid "Edit Tags"
+msgstr "Tags bewerken"
+
+#: classes/class-astra-portfolio-admin.php:655
+msgid "Update Tags"
+msgstr "Tags bijwerken"
+
+#: classes/class-astra-portfolio-admin.php:656
+msgid "Add New Tags"
+msgstr "Nieuwe tags toevoegen"
+
+#: classes/class-astra-portfolio-admin.php:657
+msgid "New Tags Name"
+msgstr "Naam nieuwe tags"
+
+#: classes/class-astra-portfolio-admin.php:658
+#: classes/class-astra-portfolio-page.php:879
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: %s is term name
+#: classes/class-astra-portfolio-admin.php:718
+msgid "Created %s"
+msgstr "Gemaakt %s"
+
+#. translators: %s is Term name.
+#: classes/class-astra-portfolio-admin.php:735
+msgid "Exists %s"
+msgstr "Bestaat %s"
+
+#: classes/class-astra-portfolio-block.php:303
+#: classes/class-astra-portfolio-shortcode.php:138
+#: dist/fscript.js:1
+#: src/blocks/portfolio/front-end/PortfolioList.js:362
+#: src/blocks/portfolio/front-end/PortfolioList.js:409
+#: src/blocks/portfolio/front-end/PortfolioList.js:455
+#: src/blocks/portfolio/front-end/PortfolioList.js:478
+#: src/blocks/portfolio/front-end/PortfolioList.js:521
+#: src/blocks/portfolio/front-end/PortfolioList.js:546
+msgid "Quick View"
+msgstr "Snelle weergave"
+
+#: classes/class-astra-portfolio-page.php:580
+#: classes/class-astra-portfolio-page.php:581
+msgid "Importing Categories.."
+msgstr "Categorieën importeren.."
+
+#: classes/class-astra-portfolio-page.php:582
+msgid "Categories Imported Successfully."
+msgstr "Categorieën succesvol geïmporteerd."
+
+#: classes/class-astra-portfolio-page.php:650
+#: classes/class-astra-portfolio-page.php:651
+msgid "Importing Other Categories.."
+msgstr "Andere categorieën importeren.."
+
+#: classes/class-astra-portfolio-page.php:652
+msgid "Other Categories Imported Successfully."
+msgstr "Andere categorieën succesvol geïmporteerd."
+
+#: classes/class-astra-portfolio-page.php:693
+msgid "Invalid response."
+msgstr "Ongeldige reactie."
+
+#: classes/class-astra-portfolio-page.php:805
+#: classes/class-astra-portfolio-page.php:1399
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/class-astra-portfolio-page.php:876
+#: includes/add-new-form.php:12
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: classes/class-astra-portfolio-page.php:955
+msgid "Website"
+msgstr "Website"
+
+#: classes/class-astra-portfolio-page.php:959
+msgid "Image"
+msgstr "Afbeelding"
+
+#: classes/class-astra-portfolio-page.php:963
+msgid "Video"
+msgstr "Video"
+
+#: classes/class-astra-portfolio-page.php:967
+msgid "Single Page"
+msgstr "Enkele pagina"
+
+#: classes/class-astra-portfolio-page.php:984
+msgid "General"
+msgstr "Algemeen"
+
+#: classes/class-astra-portfolio-page.php:989
+msgid "Style"
+msgstr "Stijl"
+
+#: classes/class-astra-portfolio-page.php:994
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: classes/class-astra-portfolio-page.php:1217
+msgid "Settings saved successfully."
+msgstr "Instellingen succesvol opgeslagen."
+
+#: classes/class-astra-portfolio-page.php:1297
+msgid "ERROR! Cron schedules are disabled by setting constant DISABLE_WP_CRON to true.<br/>To start the import process please enable the cron by setting false. E.g. define( 'DISABLE_WP_CRON', false );"
+msgstr "FOUT! Cron-schema's zijn uitgeschakeld door de constante DISABLE_WP_CRON op true in te stellen.<br/>Om het importproces te starten, schakel de cron in door false in te stellen. Bijv. define( 'DISABLE_WP_CRON', false );"
+
+#: classes/class-astra-portfolio-page.php:1301
+msgid "ERROR! Cron schedules are disabled by setting constant ALTERNATE_WP_CRON to true.<br/>To start the import process please enable the cron by setting false. E.g. define( 'ALTERNATE_WP_CRON', false );"
+msgstr "FOUT! Cron-schema's zijn uitgeschakeld door de constante ALTERNATE_WP_CRON op true in te stellen.<br/>Om het importproces te starten, schakel de cron in door false in te stellen. Bijv. define( 'ALTERNATE_WP_CRON', false );"
+
+#. translators: 1: The HTTP response code.
+#: classes/class-astra-portfolio-page.php:1337
+msgid "Unexpected HTTP response code: %s"
+msgstr "Onverwachte HTTP-reactiecode: %s"
+
+#: classes/class-astra-portfolio-page.php:1465
+msgid "Elementor"
+msgstr "Elementor"
+
+#: classes/class-astra-portfolio-page.php:1469
+msgid "Beaver Builder"
+msgstr "Beaver Builder"
+
+#: classes/class-astra-portfolio-page.php:1473
+msgid "Brizy"
+msgstr "Brizy"
+
+#: classes/class-astra-portfolio-page.php:1477
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: classes/class-astra-portfolio-shortcode.php:93
+#: includes/general-page.php:23
+msgid "Page Builder"
+msgstr "Pagina Bouwer"
+
+#: classes/class-astra-portfolio-shortcode.php:212
+msgid "Loading..."
+msgstr "Laden..."
+
+#: classes/class-astra-portfolio-shortcode.php:213
+msgid "One moment please."
+msgstr "Een moment alstublieft."
+
+#. translators: %s template
+#: classes/class-astra-portfolio-templates.php:139
+msgid "%s does not exist."
+msgstr "%s bestaat niet."
+
+#: includes/add-new-form.php:14
+msgid "Quick create portfolio using below form."
+msgstr "Snel portfolio aanmaken met behulp van het onderstaande formulier."
+
+#: includes/add-new-form.php:22
+msgid "Title"
+msgstr "Titel"
+
+#: includes/add-new-form.php:31
+msgid "Type"
+msgstr "Type"
+
+#: includes/add-new-form.php:35
+msgid "Select Type..."
+msgstr "Selecteer type..."
+
+#: includes/add-new-form.php:48
+msgid "Add Portfolio Item"
+msgstr "Portfolio-item toevoegen"
+
+#: includes/advanced-page.php:23
+msgid "Rewrite Slug"
+msgstr "Herschrijf slug"
+
+#: includes/advanced-page.php:28
+msgid "Rewrite portfolio url slug."
+msgstr "Herschrijf portfolio-URL-slug."
+
+#: includes/advanced-page.php:34
+msgid "Rewrite portfolio tags url slug."
+msgstr "Herschrijf portfolio-tags-URL-slug."
+
+#: includes/advanced-page.php:40
+msgid "Rewrite portfolio categories url slug."
+msgstr "Herschrijf portfolio-categorieën-URL-slug."
+
+#: includes/advanced-page.php:46
+msgid "Rewrite portfolio other categories url slug."
+msgstr "Herschrijf portfolio-ander-categorieën-URL-slug."
+
+#: includes/general-page.php:27
+#: includes/tmpl-portfolio-filters.php:9
+#: dist/fscript.js:1
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:551
+#: src/blocks/portfolio/Edit.js:613
+#: src/blocks/portfolio/front-end/Portfolio.js:156
+#: src/blocks/portfolio/front-end/Portfolio.js:236
+msgid "All"
+msgstr "Alles"
+
+#. translators: %s is the documentation link.
+#: includes/general-page.php:36
+msgid "Choose your preferred page builder from the list. Starter templates built with chosen page builder will only be imported. Choose \"All\" to import available starter templates with different page builders."
+msgstr "Kies uw favoriete pagina-bouwer uit de lijst. Starter-sjablonen die zijn gebouwd met de gekozen pagina-bouwer worden alleen geïmporteerd. Kies \"Alles\" om beschikbare starter-sjablonen met verschillende pagina-bouwers te importeren."
+
+#: includes/general-page.php:41
+msgid "Import Starter Templates"
+msgstr "Starter-sjablonen importeren"
+
+#: includes/general-page.php:46
+msgid "Sync"
+msgstr "Synchroniseren"
+
+#. translators: 1: Error message text.
+#: includes/general-page.php:65
+msgid "ERROR! There was a problem while testing the cron schedules on your website. The problem is: %s"
+msgstr "FOUT! Er was een probleem bij het testen van de cron-schema's op uw website. Het probleem is: %s"
+
+#: includes/general-page.php:84
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/general-page.php:94
+msgid "Display"
+msgstr "Weergeven"
+
+#: includes/general-page.php:98
+msgid "Enable sorting by categories."
+msgstr "Sorteren op categorieën inschakelen."
+
+#: includes/general-page.php:103
+msgid "Enable sorting by other categories."
+msgstr "Sorteren op andere categorieën inschakelen."
+
+#: includes/general-page.php:108
+msgid "Display sites search box."
+msgstr "Zoekvak voor sites weergeven."
+
+#: includes/general-page.php:113
+msgid "Display responsive buttons."
+msgstr "Responsieve knoppen weergeven."
+
+#: includes/shortcode.php:45
+#: dist/fscript.js:1
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:667
+#: src/blocks/portfolio/front-end/Portfolio.js:266
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/shortcode.php:46
+msgid "Search..."
+msgstr "Zoeken..."
+
+#: includes/shortcode.php:66
+#: dist/fscript.js:1
+#: src/blocks/portfolio/front-end/PortfolioList.js:606
+msgid "Load More"
+msgstr "Meer laden"
+
+#: includes/shortcode.php:86
+#: includes/tmpl-no-items-found.php:12
+#: includes/tmpl-portfolio-list.php:168
+msgid "No items found."
+msgstr "Geen items gevonden."
+
+#: includes/style-page.php:22
+msgid "Show Portfolio On"
+msgstr "Portfolio weergeven op"
+
+#: includes/style-page.php:27
+msgid "Scroll"
+msgstr "Scrollen"
+
+#: includes/style-page.php:28
+msgid "Click"
+msgstr "Klikken"
+
+#: includes/style-page.php:30
+msgid "Select the action to display more portfolio items."
+msgstr "Selecteer de actie om meer portfolio-items weer te geven."
+
+#: includes/style-page.php:36
+msgid "Thumbnail Hover Style"
+msgstr "Thumbnail Hover-stijl"
+
+#: includes/style-page.php:41
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/style-page.php:42
+msgid "Image Scroll"
+msgstr "Afbeelding scrollen"
+
+#: includes/style-page.php:49
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:311
+msgid "Scroll Speed"
+msgstr "Scrollsnelheid"
+
+#: includes/style-page.php:54
+msgid "Enter the image scroll speed in seconds."
+msgstr "Voer de scrollsnelheid van de afbeelding in seconden in."
+
+#: includes/style-page.php:60
+msgid "Preview Bar"
+msgstr "Voorbeeldbalk"
+
+#: includes/style-page.php:65
+#: includes/style-page.php:127
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:334
+msgid "Top"
+msgstr "Boven"
+
+#: includes/style-page.php:66
+#: includes/style-page.php:128
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:335
+msgid "Bottom"
+msgstr "Onder"
+
+#: includes/style-page.php:68
+msgid "Set portfolio preview bar location."
+msgstr "Stel de locatie van de portfolio-voorbeeldbalk in."
+
+#: includes/style-page.php:74
+msgid "Call to Action"
+msgstr "Oproep tot actie"
+
+#: includes/style-page.php:79
+msgid "CTA will display at the end of the portfolio list. Shortcode / HTML allowed."
+msgstr "CTA wordt aan het einde van de portfolio-lijst weergegeven. Shortcode / HTML toegestaan."
+
+#: includes/style-page.php:86
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:277
+msgid "Layout"
+msgstr "Indeling"
+
+#: includes/style-page.php:90
+msgid "Masonry"
+msgstr "Masonry"
+
+#: includes/style-page.php:94
+msgid "Enable Masonry Layout."
+msgstr "Masonry-indeling inschakelen."
+
+#: includes/style-page.php:100
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:287
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/style-page.php:105
+msgid "Number of items per row. Supports maximum 4 items."
+msgstr "Aantal items per rij. Ondersteunt maximaal 4 items."
+
+#: includes/style-page.php:111
+msgid "Items Per Page"
+msgstr "Items per pagina"
+
+#: includes/style-page.php:116
+msgid "Select the number of items that should load per request."
+msgstr "Selecteer het aantal items dat per verzoek moet worden geladen."
+
+#: includes/style-page.php:122
+msgid "Show title at"
+msgstr "Titel weergeven op"
+
+#: includes/style-page.php:130
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:331
+msgid "Set portfolio title location."
+msgstr "Stel de locatie van de portfolio-titel in."
+
+#: dist/fscript.js:1
+#: src/blocks/portfolio/front-end/PortfolioList.js:194
+msgid "No items found"
+msgstr "Geen items gevonden"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:170
+msgid "Header"
+msgstr "Koptekst"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:171
+msgid "Category"
+msgstr "Categorie"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:173
+msgid "Show Categories Names"
+msgstr "Categorieën Namen Tonen"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:180
+msgid "Add 'All' to view all category portfolio"
+msgstr "Voeg 'Alles' toe om alle categorieportfolio's te bekijken"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:187
+msgid "Other Category"
+msgstr "Andere Categorie"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:189
+msgid "Show Other Categories Names"
+msgstr "Toon Andere Categorieën Namen"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:196
+msgid "Add 'All' to view all Other Category portfolio"
+msgstr "Voeg 'Alles' toe om alle andere categorieportfolio's te bekijken"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:216
+msgid "Text"
+msgstr "Tekst"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:224
+msgid "Active Text"
+msgstr "Actieve Tekst"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:232
+msgid "Background"
+msgstr "Achtergrond"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:238
+msgid "Search box"
+msgstr "Zoekvak"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:240
+msgid "Show Search Box"
+msgstr "Toon Zoekvak"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:248
+msgid "Select Categories"
+msgstr "Selecteer Categorieën"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:256
+msgid "Select Other Categories"
+msgstr "Selecteer Andere Categorieën"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:264
+msgid "Select Tags"
+msgstr "Selecteer Tags"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:276
+msgid "Layout Settings"
+msgstr "Lay-out Instellingen"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:281
+msgid "Masonry Layout"
+msgstr "Masonry Lay-out"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:282
+msgid "Grid Layout"
+msgstr "Raster Lay-out"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:289
+msgid "Choose up to 4 columns for your portfolio."
+msgstr "Kies tot 4 kolommen voor je portfolio."
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:298
+msgid "Portfolios per page"
+msgstr "Portfolio's per pagina"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:300
+msgid "Set the number of portfolios to load per page."
+msgstr "Stel het aantal portfolio's in dat per pagina moet worden geladen."
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:313
+msgid "Set the image scroll speed (in seconds). Note: Scroll speed works only with Grid Layout."
+msgstr "Stel de scrollsnelheid van de afbeelding in (in seconden). Opmerking: Scrollsnelheid werkt alleen met Raster Lay-out."
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:323
+msgid "Quick View Text"
+msgstr "Snelle Weergave Tekst"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:325
+msgid "Add a Quick View Text here"
+msgstr "Voeg hier een Snelle Weergave Tekst toe"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:329
+msgid "Show Title At"
+msgstr "Toon Titel Bij"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:340
+msgid "CTA Button"
+msgstr "CTA Knop"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:341
+msgid "Button Text"
+msgstr "Knop Tekst"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:364
+#: src/blocks/portfolio/Edit.js:390
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:371
+#: src/blocks/portfolio/Edit.js:396
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:407
+msgid "Typography"
+msgstr "Typografie"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:444
+msgid "Dimensions"
+msgstr "Afmetingen"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:448
+msgid "Vertical Padding"
+msgstr "Verticale Opvulling"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:461
+msgid "Horizontal Padding"
+msgstr "Horizontale Opvulling"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:474
+msgid "Border Settings"
+msgstr "Randinstellingen"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:475
+msgid "Border Width"
+msgstr "Randbreedte"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:486
+msgid "Radius"
+msgstr "Radius"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:507
+msgid "Color"
+msgstr "Kleur"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/Edit.js:513
+msgid "Hover Color"
+msgstr "Hover Kleur"
+
+#: dist/script.js:1
+#: src/blocks/portfolio/index.js:171
+msgid "Display stunning portfolios with grid or masonry layouts!"
+msgstr "Toon verbluffende portfolio's met raster- of masonry-lay-outs!"
+
+#: classes/class-astra-portfolio-admin.php:521
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: classes/class-astra-portfolio-admin.php:522
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: classes/class-astra-portfolio-admin.php:523
+msgctxt "admin menu"
+msgid "WP Portfolio"
+msgstr "WP Portfolio"
+
+#: classes/class-astra-portfolio-admin.php:524
+msgctxt "add new on admin bar"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: classes/class-astra-portfolio-admin.php:525
+msgctxt "new portfolio item"
+msgid "Add New"
+msgstr "Voeg Nieuw Toe"
+
+#: classes/class-astra-portfolio-admin.php:579
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/class-astra-portfolio-admin.php:615
+msgctxt "taxonomy general name"
+msgid "Other Categories"
+msgstr "Andere Categorieën"
+
+#: classes/class-astra-portfolio-admin.php:648
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "Tags"
+
+#: classes/class-astra-portfolio-admin.php:580
+msgctxt "taxonomy singular name"
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/class-astra-portfolio-admin.php:616
+msgctxt "taxonomy singular name"
+msgid "Other Categories"
+msgstr "Andere Categorieën"
+
+#: classes/class-astra-portfolio-admin.php:649
+msgctxt "taxonomy singular name"
+msgid "Tags"
+msgstr "Tags"

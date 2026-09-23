@@ -1,0 +1,117 @@
+.leadconnector-payment-notice-wrapper {
+	width: 100%;
+	position: relative;
+	display: flex;
+	padding-right: 100px;
+	border: none;
+	outline: none;
+}
+
+.leadconnector-payment-notice {
+	display: flex;
+	align-items: center;
+	padding: 15px 20px;
+	flex-grow: 1;
+	width: 100%;
+	background-color: #fffcf5 !important;
+	margin-right: 20px;
+	border: none;
+	outline: none;
+}
+
+.leadconnector-payment-notice-icon {
+	margin-right: 15px;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+}
+
+.leadconnector-payment-notice-icon img {
+	width: 24px;
+	height: 24px;
+	outline: none;
+	border: none;
+}
+
+.leadconnector-payment-notice-message {
+	flex: 1;
+	font-size: 14px;
+	color: #b54708 !important;
+	font-weight: 500;
+	border: none;
+	outline: none;
+}
+
+.leadconnector-payment-notice-actions {
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+}
+
+.leadconnector-update-button {
+	background-color: #d35400;
+	color: #ffffff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 500;
+	margin-right: 15px;
+	display: inline-block;
+	outline: none;
+}
+
+.leadconnector-update-button:hover,
+.leadconnector-update-button:focus {
+	background-color: #e67e22;
+	color: #ffffff;
+	outline: none;
+	box-shadow: none !important;
+}
+
+.leadconnector-dismiss-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	color: #777777;
+	outline: none;
+}
+
+.leadconnector-dismiss-button:hover {
+	color: #333333;
+}
+
+.leadconnector-dismiss-button .dashicons {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	outline: none;
+}
+
+/* Responsive layout for smaller admin screens */
+@media screen and (max-width: 782px) {
+	.leadconnector-payment-notice {
+	flex-wrap: wrap;
+	padding: 15px;
+	}
+
+	.leadconnector-payment-notice-message {
+	margin-bottom: 10px;
+	width: 100%;
+	}
+
+	.leadconnector-payment-notice-actions {
+	width: 100%;
+	justify-content: space-between;
+	}
+
+	.leadconnector-update-button {
+	padding: 8px 10px;
+	margin-right: 0;
+	}
+}

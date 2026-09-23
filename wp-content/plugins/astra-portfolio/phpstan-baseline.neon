@@ -1,0 +1,1862 @@
+parameters:
+	reportUnmatchedIgnoredErrors: false
+	ignoreErrors:
+
+		#common errors
+
+		- '#type has no value type specified in iterable type array\.$#'
+		- '#with no value type specified in iterable type array\.$#'
+		- "#^While loop condition is always true\\.$#"
+		
+		-
+			message: "#^Method Astra_Notices\\:\\:add_data_attributes\\(\\) has parameter \\$allowedposttags with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:add_data_attributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:add_notice\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:get_notice_id\\(\\) has parameter \\$notice with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:get_wrap_classes\\(\\) has parameter \\$notice with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:get_wrap_classes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:get_wrap_classes\\(\\) should return array but returns string\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:is_expired\\(\\) has parameter \\$notice with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:markup\\(\\) has parameter \\$notice with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:sort_notices\\(\\) has parameter \\$array1 with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:sort_notices\\(\\) has parameter \\$array2 with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:sort_notices\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Method Astra_Notices\\:\\:sort_notices\\(\\) should return array but returns \\(float\\|int\\)\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Property Astra_Notices\\:\\:\\$notices type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Property Astra_Notices\\:\\:\\$version type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/astra-notices/class-astra-notices.php
+
+		-
+			message: "#^Property BSF_Analytics_Loader\\:\\:\\$analytics_version \\(float\\) does not accept default value of type string\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-loader.php
+
+		-
+			message: "#^Property BSF_Analytics_Loader\\:\\:\\$analytics_version \\(float\\) does not accept mixed\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-loader.php
+
+		-
+			message: "#^Property BSF_Analytics_Loader\\:\\:\\$entities type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-loader.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Function wp_timezone_string\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Method BSF_Analytics_Stats\\:\\:format_plugin\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Method BSF_Analytics_Stats\\:\\:get_active_plugins\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Method BSF_Analytics_Stats\\:\\:get_default_stats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Method BSF_Analytics_Stats\\:\\:get_php_version\\(\\) should return float but returns string\\.$#"
+			count: 2
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Method BSF_Analytics_Stats\\:\\:get_stats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Property BSF_Analytics_Stats\\:\\:\\$plugins type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics-stats.php
+
+		-
+			message: "#^Constant BSF_ANALYTICS_URI not found\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Constant BSF_ANALYTICS_VERSION not found\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:__construct\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:add_analytics_option_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:add_option_to_network\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:get_analytics_install_time\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:handle_optin_optout\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:includes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:maybe_track_analytics\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:optin\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:option_notice\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:optout\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:register_usage_tracking_setting\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:render_settings_field_html\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:render_settings_field_html\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:sanitize_option\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:send\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:set_actions\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Method BSF_Analytics\\:\\:update_analytics_option_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Property BSF_Analytics\\:\\:\\$entities type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-analytics/class-bsf-analytics.php
+
+		-
+			message: "#^Action callback returns bool but should not return anything\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 6
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_current_name\\(\\) should return string but returns false\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_current_version\\(\\) should return float but returns false\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_current_version\\(\\) should return float but returns string\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_free_menu_position\\(\\) should return int but returns float\\|int\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_option\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_get_option\\(\\) should return array but returns mixed\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Function bsf_notices\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Part \\$product\\['id'\\] \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Result of \\|\\| is always true\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Variable \\$menus_positions might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Variable \\$name might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Variable \\$version might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/admin-functions.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^Function bsf_get_remote_version\\(\\) has parameter \\$products with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^Function bsf_get_remote_version\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^Function bsf_get_remote_version\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^If condition is always true\\.$#"
+			count: 1
+			path: admin/bsf-core/auto-update/updater.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Default value of the parameter \\#1 \\$product_id \\(string\\) of method BSF_Envato_Activate\\:\\:get_redirect_url\\(\\) is incompatible with type int\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Function bsf_envato_register\\(\\) has invalid return type envato_register\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:alternate_method_link\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:create_token\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:envato_activation_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:envato_activation_url\\(\\) has parameter \\$form_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:envato_register\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:envato_register\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:get_message\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:get_redirect_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:inline_alternate_method_link\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:process_envato_activation\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:set_message\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Method BSF_Envato_Activate\\:\\:set_message\\(\\) has parameter \\$message with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$content\\.\\)\\: Unexpected token \"\\$content\", expected type at offset 88$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$current_url\\.\\)\\: Unexpected token \"\\$current_url\", expected type at offset 85$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$envato_activation_url\\.\\)\\: Unexpected token \"\\$envato_activation_url\", expected type at offset 90$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$html\\.\\)\\: Unexpected token \"\\$html\", expected type at offset 135$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$mesage\\)\\: Unexpected token \"\\$mesage\", expected type at offset 69$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$token\\.\\)\\: Unexpected token \"\\$token\", expected type at offset 81$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Property BSF_Envato_Activate\\:\\:\\$message_box type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-envato-activate.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 2
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Constant BSF_UPDATER_VERSION not found\\.$#"
+			count: 3
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Function bsf_license_activation_form\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Function bsf_license_activation_form\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Function get_bsf_inline_license_form\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Function get_bsf_inline_license_form\\(\\) has parameter \\$bsf_product_id with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Function get_bsf_inline_license_form\\(\\) has parameter \\$links with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:admin_css\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_activate_license\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_deactivate_license\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_get_product_info\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_is_active_license\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_update_product_info\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:bsf_update_product_info\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:get_bsf_inline_license_form\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:get_bsf_inline_license_form\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:get_bsf_inline_license_form\\(\\) has parameter \\$links with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:get_remote_license_status\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:includes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:is_edd\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:is_product_free\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:license_activation_form\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:license_activation_form\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:refresh_products_on_license_activae\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Method BSF_License_Manager\\:\\:render_popup_form_markup\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$inline_form_products Inline form products\\.\\)\\: Unexpected token \"\\$inline_form_products\", expected type at offset 71$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$instance Class instance\\.\\)\\: Unexpected token \"\\$instance\", expected type at offset 65$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Property BSF_License_Manager\\:\\:\\$inline_form_products has no type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Property BSF_License_Manager\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-license-manager.php
+
+		-
+			message: "#^Action callback returns array but should not return anything\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 5
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:add_beta_update_message\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:add_beta_update_message\\(\\) has parameter \\$plugin_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:add_beta_update_message\\(\\) has parameter \\$response with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:beta_version_normalized\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:beta_version_normalized\\(\\) has parameter \\$beta with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:brainstorm_all_products\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:brainstorm_update_plugins_transient\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:brainstorm_update_themes_transient\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_add_registration_message\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_add_registration_message\\(\\) has parameter \\$plugin_data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_add_registration_message\\(\\) has parameter \\$response with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_allow_beta_updates\\(\\) has parameter \\$product_id with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_get_plugin_information\\(\\) should return object but returns mixed\\.$#"
+			count: 2
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_get_plugin_slug\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_get_plugin_slug\\(\\) has parameter \\$template with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_is_product_bundled\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_is_product_bundled\\(\\) has parameter \\$bsf_product with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_update_display_license_link\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:bsf_update_transient_data\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:maybe_force_check_bsf_product_updates\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:plugin_information\\(\\) has parameter \\$brainstrom_products with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:plugin_information\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:prepare_plugins_for_update\\(\\) has parameter \\$plugins with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_Update_Manager\\:\\:prepare_plugins_for_update\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$_transient_data\\.\\)\\: Unexpected token \"\\$_transient_data\", expected type at offset 118$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$_transient_data\\.\\)\\: Unexpected token \"\\$_transient_data\", expected type at offset 119$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$product_parent\\.\\)\\: Unexpected token \"\\$product_parent\", expected type at offset 143$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$slug\\.\\)\\: Unexpected token \"\\$slug\", expected type at offset 88$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$update_required\\.\\)\\: Unexpected token \"\\$update_required\", expected type at offset 104$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$version\\.\\)\\: Unexpected token \"\\$version\", expected type at offset 86$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Part \\$product_id \\(array\\) of encapsed string cannot be cast to string\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Undefined variable\\: \\$plugin_name$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Variable \\$template might not be defined\\.$#"
+			count: 7
+			path: admin/bsf-core/class-bsf-update-manager.php
+
+		-
+			message: "#^Method BSF_WP_CLI_Command\\:\\:license\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-wp-cli-command.php
+
+		-
+			message: "#^Method BSF_WP_CLI_Command\\:\\:license\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-wp-cli-command.php
+
+		-
+			message: "#^Method BSF_WP_CLI_Command\\:\\:license\\(\\) has parameter \\$assoc_args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-wp-cli-command.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$license_manager\\)\\: Unexpected token \"\\$license_manager\", expected type at offset 54$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-wp-cli-command.php
+
+		-
+			message: "#^Property BSF_WP_CLI_Command\\:\\:\\$license_manager \\(BSF_License_Manager\\) does not accept default value of type string\\.$#"
+			count: 1
+			path: admin/bsf-core/class-bsf-wp-cli-command.php
+
+		-
+			message: "#^Constant BSF_UPDATER_VERSION not found\\.$#"
+			count: 2
+			path: admin/bsf-core/classes/class-bsf-core-update.php
+
+		-
+			message: "#^Method BSF_Core_Update\\:\\:get_instance\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/classes/class-bsf-core-update.php
+
+		-
+			message: "#^Method BSF_Core_Update\\:\\:init\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/classes/class-bsf-core-update.php
+
+		-
+			message: "#^PHPDoc tag @var has invalid value \\(\\$instance Class instance\\.\\)\\: Unexpected token \"\\$instance\", expected type at offset 65$#"
+			count: 1
+			path: admin/bsf-core/classes/class-bsf-core-update.php
+
+		-
+			message: "#^Property BSF_Core_Update\\:\\:\\$instance has no type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/classes/class-bsf-core-update.php
+
+		-
+			message: "#^Constant BSF_UPDATER_VERSION not found\\.$#"
+			count: 1
+			path: admin/bsf-core/classes/class-bsf-extension-installer.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 4
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Call to function sprintf\\(\\) on a separate line has no effect\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Else branch is unreachable because previous condition is always true\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function brainstorm_get_all_products\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function brainstorm_get_all_products\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_convert_core_path_to_relative\\(\\) has parameter \\$path with no type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_core_url\\(\\) should return string but returns false\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_extension_nag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_get_api_site\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_get_api_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_get_loaded_bsf_core_name\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_nag_brainstorm_updater_multisite\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function bsf_time_since_last_versioncheck\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function get_brainstorm_product\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Function get_brainstorm_product\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$bsf_api_site\\.\\)\\: Unexpected token \"\\$bsf_api_site\", expected type at offset 92$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$url\\.\\)\\: Unexpected token \"\\$url\", expected type at offset 145$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^PHPDoc tag @return has invalid value \\(\\$url\\.\\)\\: Unexpected token \"\\$url\", expected type at offset 91$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Variable \\$product_slug might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/helpers.php
+
+		-
+			message: "#^Cannot call method get_error_message\\(\\) on array\\<string, array\\<int\\|string, int\\|string\\|WP_Http_Cookie\\>\\|string\\|WP_HTTP_Requests_Response\\|WpOrg\\\\Requests\\\\Utility\\\\CaseInsensitiveDictionary\\|null\\>\\|WP_Error\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/system-info.php
+
+		-
+			message: "#^Constant BSF_UPDATER_VERSION not found\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/system-info.php
+
+		-
+			message: "#^Constant WP_MEMORY_LIMIT not found\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/system-info.php
+
+		-
+			message: "#^Function bsf_systeminfo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/system-info.php
+
+		-
+			message: "#^Function get_bsf_systeminfo\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/includes/system-info.php
+
+		-
+			message: "#^Variable \\$product_id might not be defined\\.$#"
+			count: 6
+			path: admin/bsf-core/includes/views/list-bundled-products.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 6
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Cannot call method get\\(\\) on WP_Theme\\|false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Default value of the parameter \\#1 \\$product_id \\(string\\) of function brainstrom_product_name\\(\\) is incompatible with type int\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Default value of the parameter \\#1 \\$product_id \\(string\\) of function bsf_bundled_plugins\\(\\) is incompatible with type int\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Default value of the parameter \\#2 \\$product_id \\(string\\) of function bsf_registration_page_url\\(\\) is incompatible with type int\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function brainstrom_product_id_by_init\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function brainstrom_product_id_by_name\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function brainstrom_product_name\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_bundled_plugins\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_core_debug_link\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_dismiss_extension_nag\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_envato_redirect_url_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_extensions_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_extract_product_id\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_flush_bundled_products\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_flush_skip_registration\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_get_brainstorm_products\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_get_brainstorm_products\\(\\) should return array but returns mixed\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_registration_page_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function bsf_set_options\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function init_bsf_core\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function init_bsf_plugin_installer\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function print_bsf_styles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function register_bsf_core_admin_styles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function register_bsf_core_styles\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function register_bsf_extension_page\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function register_bsf_extension_page_network\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Function set_bsf_core_constant\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Result of \\|\\| is always false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'BSF_REG_MENU_TO…' and 'true' will always evaluate to false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'BSF_REG_MENU_TO…' and true will always evaluate to false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between true and false will always evaluate to false\\.$#"
+			count: 1
+			path: admin/bsf-core/index.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 8
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Function bsf_render_bundled_products\\(\\) should return string but returns string\\|false\\.$#"
+			count: 3
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Function check_bsf_product_status\\(\\) should return bool but returns mixed\\.$#"
+			count: 1
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Result of && is always false\\.$#"
+			count: 2
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between 'true' and 0\\|0\\.0\\|''\\|'0'\\|array\\{\\}\\|false\\|null will always evaluate to false\\.$#"
+			count: 1
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Undefined variable\\: \\$request_product_id$#"
+			count: 2
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Undefined variable\\: \\$reset_bundled_url$#"
+			count: 1
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Variable \\$button might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Variable \\$installer_url might not be defined\\.$#"
+			count: 1
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Variable \\$request_product_id in isset\\(\\) is never defined\\.$#"
+			count: 2
+			path: admin/bsf-core/plugin-installer/admin-functions.php
+
+		-
+			message: "#^Method Astra_Portfolio_Batch_Importer\\:\\:complete\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/class-astra-portfolio-batch-importer.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:get_saved_image\\(\\) should return string but returns array\\<string, mixed\\>\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:get_saved_image\\(\\) should return string but returns false\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:import\\(\\) has parameter \\$attachment with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:import\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:import\\(\\) should return array but returns string\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:process\\(\\) has parameter \\$attachments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method Astra_Portfolio_Import_Image\\:\\:process\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Property Astra_Portfolio_Import_Image\\:\\:\\$already_imported_ids type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-astra-portfolio-import-image.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:data\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:dispatch\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:get_post_args\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:get_query_args\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Async_Request\\:\\:maybe_handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Property WP_Async_Request\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-async-request.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:cancel_process\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:clear_scheduled_event\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:complete\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:handle_cron_healthcheck\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:is_process_running\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:lock_process\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:maybe_handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:schedule_event\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Method WP_Background_Process\\:\\:update\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^PHPDoc tag @extends has invalid value \\(WP_Async_Request\\)\\: Unexpected token \"\\\\n\\\\t \", expected '\\<' at offset 93$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Strict comparison using \\=\\=\\= between \\-1 and non\\-falsy\\-string will always evaluate to false\\.$#"
+			count: 1
+			path: classes/batch-processing/helpers/class-wp-background-process.php
+
+		-
+			message: "#^Default value of the parameter \\#2 \\$post \\(string\\) of method Astra_Portfolio_Admin\\:\\:save_meta_boxes\\(\\) is incompatible with type object\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Default value of the parameter \\#3 \\$update \\(string\\) of method Astra_Portfolio_Admin\\:\\:save_meta_boxes\\(\\) is incompatible with type bool\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:add_portfolio_type_class\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:add_terms\\(\\) has parameter \\$terms with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:change_portfolio_taxonomy_url_slug\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:change_portfolio_taxonomy_url_slug\\(\\) has parameter \\$object_type with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:change_portfolio_taxonomy_url_slug\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:change_portfolio_url_slug\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:change_portfolio_url_slug\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:filter_update_message\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:filter_update_message\\(\\) has parameter \\$messages with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:generate_excluded_ids\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:get_excluded_items\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:get_portfolio_image_url\\(\\) should return string but empty return statement found\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:hide_row_actions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:meta_box_settings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:post_navigation_clause\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Method Astra_Portfolio_Admin\\:\\:post_updated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: """
+				#^PHPDoc tag @var has invalid value \\(\\$get_locale The locale to use\\. Uses get_user_locale\\(\\)` in WordPress 4\\.7 or greater,
+				                 otherwise uses `get_locale\\(\\)`\\.\\)\\: Unexpected token "\\$get_locale", expected type at offset 57$#
+			"""
+			count: 1
+			path: classes/class-astra-portfolio-admin.php
+
+		-
+			message: "#^Default value of the parameter \\#1 \\$category_slug \\(string\\) of method Astra_Portfolio_API\\:\\:get_categories\\(\\) is incompatible with type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_api_endpoint\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_categories\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_categories\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_categories\\(\\) has parameter \\$category_slug with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_sites\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_sites\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_API\\:\\:get_sites_api_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Helper\\:\\:generate_json_file\\(\\) has parameter \\$content with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-helper.php
+
+		-
+			message: "#^Method Astra_Portfolio_Helper\\:\\:get_page_settings\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-helper.php
+
+		-
+			message: "#^Property Astra_Portfolio_Helper\\:\\:\\$instance has unknown class instance as its type\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-helper.php
+
+		-
+			message: "#^Action callback returns array but should not return anything\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Binary operation \"\\.\" between '&page\\=' and array results in an error\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Binary operation \"\\.\" between '\\?page\\=' and array results in an error\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 2
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Left side of && is always true\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:action_links\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:add_admin_menu\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:add_new_page\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:admin_scripts\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:admin_url\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:advanced_page\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:delete_remote_id_from_excluded_ids\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:general_page\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:get_all_data\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:get_page_builders\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:get_portfolio_types\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:get_total_requests\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:get_view_actions\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:import_site\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:import_sites\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:import_term\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:init_admin_settings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:init_nav_menu\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:menu_callback\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:render\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:render_tab_menu\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:requests_count\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:save_settings\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Method Astra_Portfolio_Page\\:\\:style_page\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$current_slug type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$default_menu_position type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$last_export_checksums \\(object\\) in empty\\(\\) is not falsy\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$menu_page_title type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$parent_page_slug type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$plugin_slug type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Property Astra_Portfolio_Page\\:\\:\\$view_actions type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^is_wp_error\\(int\\) will always evaluate to false\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^is_wp_error\\(int\\<1, max\\>\\) will always evaluate to false\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-page.php
+
+		-
+			message: "#^Binary operation \"\\-\" between float and string results in an error\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_api_request_time\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_lightbox_image_url\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_portfolio_type\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_portfolio_type\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_portfolio_video_url\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_portfolio_video_url\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_post_featured_image\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_post_featured_meta\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_post_featured_meta\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_post_meta\\(\\) has parameter \\$request with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rest_API\\:\\:get_post_meta\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-rest-api.php
+
+		-
+			message: "#^Method Astra_Portfolio_Shortcode\\:\\:get_attributes\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-shortcode.php
+
+		-
+			message: "#^Method Astra_Portfolio_Shortcode\\:\\:page_templates\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-shortcode.php
+
+		-
+			message: "#^Method Astra_Portfolio_Shortcode\\:\\:shortcode_bottom\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-shortcode.php
+
+		-
+			message: "#^Binary operation \"\\.\" between ' Backtrace\\: ' and array\\|string results in an error\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Function astra_portfolio_get_template\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Function astra_portfolio_get_template\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Function astra_portfolio_get_template_html\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Function astra_portfolio_get_template_part\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:debug_backtrace_summary\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:doing_it_wrong\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:get_template\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:get_template\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:get_template_html\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:get_template_html\\(\\) should return string but returns string\\|false\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Method Astra_Portfolio_Templates\\:\\:get_template_part\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Part \\$call\\['args'\\]\\[0\\] \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Part \\$slug \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 6
+			path: classes/class-astra-portfolio-templates.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio-update.php
+
+		-
+			message: "#^Method Astra_Portfolio\\:\\:includes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/class-astra-portfolio.php
+
+		-
+			message: "#^Default value of the parameter \\#3 \\$post \\(string\\) of method Astra_Portfolio_Rank_Math\\:\\:exclude_from_sitemap\\(\\) is incompatible with type object\\.$#"
+			count: 1
+			path: classes/compatibility/class-astra-portfolio-rank-math.php
+
+		-
+			message: "#^Method Astra_Portfolio_Rank_Math\\:\\:exclude_from_sitemap\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: classes/compatibility/class-astra-portfolio-rank-math.php
+
+		-
+			message: "#^Method Astra_Portfolio_WordPress_SEO\\:\\:exclude_from_sitemap\\(\\) has parameter \\$ids with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/compatibility/class-astra-portfolio-wordpress-seo.php
+
+		-
+			message: "#^Method Astra_Portfolio_WordPress_SEO\\:\\:exclude_from_sitemap\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: classes/compatibility/class-astra-portfolio-wordpress-seo.php
+
+		-
+			message: "#^Variable \\$types might not be defined\\.$#"
+			count: 1
+			path: includes/add-new-form.php
+
+		-
+			message: "#^Calling self\\:\\:test_cron\\(\\) outside of class scope\\.$#"
+			count: 1
+			path: includes/general-page.php
+
+		-
+			message: "#^Function wp_kses_post invoked with 2 parameters, 1 required\\.$#"
+			count: 2
+			path: includes/general-page.php

@@ -1,0 +1,26 @@
+/**
+ * Table
+ */
+table.astra-portfolio-table {
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+}
+.astra-portfolio-row td,
+.astra-portfolio-row th {
+    border-bottom: 1px solid #f0f0f0;
+}
+.astra-portfolio-heading label {
+    font-weight: bold;
+}
+.astra-portfolio-heading {
+    background: #F9F9F9;
+    border-right: 1px solid #E1E1E1;
+    padding: 13px 15px;
+    width: 25%;
+    color: #333;
+    font-weight: bold;
+}
+.astra-portfolio-content {
+    padding: 13px 15px;
+    position: relative;
+}

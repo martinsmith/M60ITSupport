@@ -1,0 +1,67 @@
+LeadConnector — Full Version History
+=====================================
+
+Older release notes moved here from readme.txt per WordPress.org changelog length guidelines.
+See readme.txt for current 3.0.x releases.
+
+= 2.0.5 =
+* Fix: Resolved chat widget getting disabled issue.
+
+= 2.0.3 =
+* Fix: Resolved errors.
+
+= 2.0.2 =
+* Fix: Resolved cron and loading screen issue.
+
+= 2.0 =
+* Feature: Added LeadConnector forms integration, email, and phone number tracking pool support in WordPress.
+
+= 1.9 =
+* Fix: Resolved warnings and errors.
+* Enhancement: Allowed `noscript` tag in tracking code.
+
+= 1.8 =
+* Security: Added security updates.
+
+= 1.7 =
+* Feature: Added option to use the WordPress site's default favicon for funnels.
+
+= 1.6 =
+* Fix: Added correct error when account permalinks are set to Plain.
+* Fix: Improved compatibility with plugins that stop chat widget installations.
+
+= 1.5 =
+* Fix: Tracking code now works from both funnel and step level.
+* Fix: Plugin CSS no longer conflicts with other plugin CSS.
+
+= 1.4 =
+* Feature: Added tracking code support for published WordPress funnel posts.
+* Feature: Added chat widget theme color support.
+* Fix: Added non-ASCII character support in meta tags.
+
+= 1.3 =
+* Fix: Resolved published funnel page issue when the domain is not connected.
+
+= 1.2 =
+* Fix: Bug fixes.
+
+= 1.1 =
+* Feature: Added SEO metadata support for funnel pages in WordPress.
+
+= 1.0 =
+* Feature: Added funnel import and a new LeadConnector settings page.
+
+= 0.5.0 =
+* Improved: Privacy policy update.
+
+= 0.4.0 =
+* Feature: Added latest chat widget integration.
+
+= 0.3.0 =
+* Fix: Removed dependency on jQuery Migrate script.
+
+= 0.2.0 =
+* Feature: Added `use email field` checkbox for the text widget.
+
+= 0.1.0 =
+* Initial public beta release.

@@ -1,0 +1,29 @@
+# === Archives / dumps (any level) ===
+*.gz
+*.zip
+*.tar
+*.tgz
+*.sql
+*.wpress
+
+# === OS / editor cruft (any level) ===
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# === Secrets / config with credentials ===
+wp-config.php
+wp-config-ddev.php
+.remot-wp-config.php
+
+# === WordPress runtime (regenerated; not content) ===
+wp-content/ai1wm-backups/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/*.log
+debug.log
+
+# === Kilo local config ===
+.kilo/

@@ -1,0 +1,57 @@
+#astra-portfolio-settings .spinner {
+    margin: 0 auto 1em auto;
+    width: 100%;
+}
+
+#astra-portfolio-menu-page {
+	margin-top: 10px;
+}
+
+#astra-portfolio-menu-page .astra-portfolio-menu-page-title {
+	font-size: 23px;
+    font-weight: 400;
+    margin: 0 0px 5px 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.astra-portfolio:before {
+    left: -4px;
+    position: relative;
+    content: "\f463";
+    display: inline-block;
+    font-size: 16px;
+    line-height: normal;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: sub;
+    text-align: center;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.astra-portfolio.button.updating-message:before {
+    margin: 3px 0px 0 -2px;
+}
+
+.astra-portfolio-shortcode-text:disabled {
+    color: #32373c;
+    cursor: text;
+}
+
+.astra-portfolio.is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#astra-portfolio-menu-page .nav-tab {
+    margin-left: 12px;
+    padding: 5px 15px;
+}
+
+#astra-portfolio-menu-page .nav-tab-wrapper {
+    padding-top: 15px;
+}

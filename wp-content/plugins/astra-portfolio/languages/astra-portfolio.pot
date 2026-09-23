@@ -1,0 +1,1129 @@
+# Copyright (C) 2025 Brainstorm Force
+# This file is distributed under the same license as the WP Portfolio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Portfolio 1.13.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-portfolio\n"
+"POT-Creation-Date: 2025-11-18 14:09:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/astra-notices/class-astra-notices.php:146
+msgid "WordPress Nonce not validated."
+msgstr ""
+
+#: admin/astra-notices/class-astra-notices.php:153
+msgid "Invalid notice ID."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:238
+#. translators: %s product name
+msgid ""
+"Help us improve %1$s and our other products!<br><br>With your permission, "
+"we'd like to collect <strong>non-sensitive information</strong> from your "
+"website — like your PHP version and which features you use — so we can fix "
+"bugs faster, make smarter decisions, and build features that actually "
+"matter to you. <em>No personal info. Ever.</em>"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:244
+msgid "This will be applicable for all sites from the network."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:268
+#. translators: %s usage doc link
+msgid " Know More."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:278
+msgid "Yes! Allow it"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:289
+msgid "No Thanks"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:414
+msgid "Usage Tracking"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:458
+#. translators: %s Product title
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:461
+msgid " This will be applicable for all sites from the network."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:466
+msgid "Learn More."
+msgstr ""
+
+#: admin/bsf-analytics/classes/class-bsf-analytics-helper.php:28
+msgid "Oops! Something went wrong. Please refresh the page and try again."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:80
+msgid "Quick Feedback"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:83
+msgid "If you have a moment, please share why you are deactivating the plugin."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:112
+msgid "Icon"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:139
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:314
+msgid "Please tell us more details."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:148
+#. translators: %1$s: link html start, %2$s: link html end
+msgid "Need help from our experts? %1$sClick here to contact us.%2$s"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:159
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:160
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:229
+msgid "Sorry, you are not allowed to do this operation."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:242
+msgid "Nonce validation failed"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:289
+msgid "This is a temporary deactivation for testing."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:290
+msgid "How can we assist you?"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:295
+msgid "The plugin isn't working properly."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:296
+msgid "Please tell us more about what went wrong?"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:301
+msgid "I found a better alternative plugin."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:302
+msgid "Could you please specify which plugin?"
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:307
+msgid "It's missing a specific feature."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:308
+msgid "Please tell us more about the feature."
+msgstr ""
+
+#: admin/bsf-analytics/modules/deactivation-survey/classes/class-deactivation-survey-feedback.php:313
+msgid "Other"
+msgstr ""
+
+#: admin/bsf-core/auto-update/admin-functions.php:306
+msgid "Please"
+msgstr ""
+
+#: admin/bsf-core/auto-update/admin-functions.php:306
+msgid "activate"
+msgstr ""
+
+#: admin/bsf-core/auto-update/admin-functions.php:306
+msgid "your copy of the"
+msgstr ""
+
+#: admin/bsf-core/auto-update/admin-functions.php:306
+msgid "to get update notifications, access to support features & other resources!"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-envato-activate.php:137
+msgid "Sign Up & Activate"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-envato-activate.php:138
+#: admin/bsf-core/class-bsf-license-manager.php:501
+#: admin/bsf-core/class-bsf-license-manager.php:725
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-envato-activate.php:199
+msgid ""
+"Updates & Support Registration - <span class=\"not-active\">Not "
+"Active!</span>"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-envato-activate.php:200
+#: admin/bsf-core/class-bsf-license-manager.php:565
+msgid ""
+"Click on the button below to activate your license and subscribe to our "
+"newsletter."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:486
+msgid "Product id is missing."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:500
+#: admin/bsf-core/class-bsf-license-manager.php:709
+#: admin/bsf-core/class-bsf-license-manager.php:724
+msgid "Activate License"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:567
+msgid "Enter your purchase key and activate automatic updates."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:596
+msgid "Your license is active."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:712
+msgid "License"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:727
+msgid "Your license is not active!"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:728
+msgid "Your license is activated!"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-license-manager.php:774
+msgid "Close"
+msgstr ""
+
+#: admin/bsf-core/class-bsf-update-manager.php:573
+#. translators: %1$s: $parent_name %2%s: $registration_page
+msgid ""
+" <br>This plugin is came bundled with the <i>%1$s</i>. For receiving "
+"updates, you need to register license of <i>%2$s</i> <a "
+"href=\"%3$s\">here</a>."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-update-manager.php:576
+#. translators: %1$s: $registration_page %2%s: search term
+msgid "Please <a href=\"%1$s\">activate your license</a> to update the plugin."
+msgstr ""
+
+#: admin/bsf-core/class-bsf-update-manager.php:633
+#: admin/bsf-core/class-bsf-update-manager.php:641
+msgid "Downloading the update..."
+msgstr ""
+
+#: admin/bsf-core/classes/class-bsf-extension-installer.php:54
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: admin/bsf-core/classes/class-bsf-extension-installer.php:63
+msgid "No plugin specified"
+msgstr ""
+
+#: admin/bsf-core/classes/class-bsf-extension-installer.php:83
+msgid "Plugin Activated"
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:239
+msgid " requires following plugins to be active : "
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:249
+msgid " requires following plugins to be installed and activated : "
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:258
+msgid "Begin activating plugins"
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:262
+msgid "Begin installing plugins"
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:265
+msgid "Dismiss This Notice"
+msgstr ""
+
+#: admin/bsf-core/includes/helpers.php:296
+#. translators: %1$s: strong tag %2%s: strong tag  %3%s: anchor tag %4%s:
+#. closing anchor tag
+msgid ""
+"Looks like you are on a WordPress Multisite, you will need to install and "
+"network activate %1$s Brainstorm Updater for Multisite %2$s plugin. "
+"Download it from %3$s here %4$s"
+msgstr ""
+
+#: admin/bsf-core/includes/system-info.php:19
+msgid "WordPress Environment"
+msgstr ""
+
+#: admin/bsf-core/includes/system-info.php:124
+msgid "Server Environment"
+msgstr ""
+
+#: admin/bsf-core/includes/system-info.php:228
+msgid "Theme Information"
+msgstr ""
+
+#: admin/bsf-core/includes/system-info.php:250
+msgid "Installed Plugins"
+msgstr ""
+
+#: admin/bsf-core/includes/views/list-bundled-products.php:42
+msgid "Extensions "
+msgstr ""
+
+#: admin/bsf-core/includes/views/list-bundled-products.php:48
+msgid "Available Extensions"
+msgstr ""
+
+#: admin/bsf-core/includes/views/list-bundled-products.php:56
+msgid "Installed Extensions"
+msgstr ""
+
+#: admin/bsf-core/index.php:114 admin/bsf-core/index.php:115
+msgid "Extensions"
+msgstr ""
+
+#: admin/bsf-core/index.php:213
+msgid "iMedica Extensions"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:187
+msgid "All available extensions have been installed!"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:198
+msgid "No extensions available yet!"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:201
+msgid "Refresh Bundled Products"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:246
+msgid "Downloading"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:271
+msgid "Install"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:276
+msgid "Validate Purchase"
+msgstr ""
+
+#: admin/bsf-core/plugin-installer/admin-functions.php:287
+msgid "Installed"
+msgstr ""
+
+#: classes/batch-processing/class-astra-portfolio-batch.php:101
+#. translators: %1$s portfolio page url.
+msgid ""
+"Starter Templates have been imported as portfolio items! Please <a "
+"href=\"%1$s\">take a look</a> and publish the ones that you like."
+msgstr ""
+
+#: classes/batch-processing/class-astra-portfolio-batch.php:131
+msgid ""
+"Syncing template library in the background. The process can take anywhere "
+"between 10 to 15 minutes. We will notify you once done."
+msgstr ""
+
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:191
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:213
+#. translators: %1$s is error message and %2$s is image URL
+msgid "IMAGE: Failed! WP Error - %1$s %2$s"
+msgstr ""
+
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:195
+#. translators: %1$s is error response code and %2$s is image URL
+msgid "IMAGE: Failed! Invalid Response Code %1$s! Expected response code 200 - %2$s"
+msgstr ""
+
+#: classes/batch-processing/helpers/class-astra-portfolio-import-image.php:198
+msgid "IMAGE: Failed! Empty image content."
+msgstr ""
+
+#: classes/batch-processing/helpers/class-wp-background-process.php:444
+#. translators: %d are the minutes.
+msgid "Every %d Minutes"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:200
+msgid "Post updated."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:201
+msgid "Post published."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:202
+msgid "Post submitted."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:203
+msgid "Post scheduled."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:204
+msgid "Post draft updated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:273
+msgid "How likely are you to recommend WP Portfolio to your friends or colleagues?"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:275
+msgid "Thanks a lot for your feedback! 😍"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:276
+msgid ""
+"Thanks for using WP Portfolio! Got feedback or suggestions to make it even "
+"better? We’d love to hear from you."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:279
+msgid "Thank you for your feedback"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:280
+msgid "We value your input. How can we improve your experience?"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:299
+#: classes/class-astra-portfolio-admin.php:480
+msgid "Add image"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:321
+msgid "Portfolio Settings"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:365
+msgid "Portfolio Type"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:373
+msgid "Thumbnail Image"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:388
+msgid "Enter URL"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:392
+msgid "Open in New Tab"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:398
+#: classes/class-astra-portfolio-admin.php:449
+msgid "Add Call-to-action"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:401
+#: classes/class-astra-portfolio-admin.php:452
+msgid "This allows you to add a call-to-action on the preview bar."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:410
+msgid "Portfolio Image"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:425
+msgid "Video URL"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:438
+msgid "Open Portfolio Item in"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:441
+msgid "New Tab"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:442
+msgid "Same Tab"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:443
+msgid "iFrame"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:445
+msgid "Select where you wish to show a portfolio item when the user clicks on it."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:563
+msgid "Add New Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:564
+msgid "New Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:565
+msgid "Edit Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:566
+msgid "View Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:567
+#: classes/class-astra-portfolio-page.php:902
+msgid "All Portfolio Items"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:568
+msgid "Search Portfolios"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:569
+msgid "Parent Portfolios:"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:570
+msgid "No Portfolios found."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:571
+msgid "No Portfolios found in Trash."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:578
+msgid "Description."
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:618
+msgid "Search Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:619
+msgid "All Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:620
+msgid "Parent Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:621
+msgid "Parent Categories:"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:622
+msgid "Edit Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:623
+msgid "Update Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:624
+msgid "Add New Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:625
+msgid "New Categories Name"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:626
+#: classes/class-astra-portfolio-page.php:904
+#: classes/class-astra-portfolio-shortcode.php:98
+msgid "Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:654
+msgid "Search Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:655
+msgid "All Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:656
+msgid "Parent Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:657
+msgid "Parent Other Categories:"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:658
+msgid "Edit Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:659
+msgid "Update Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:660
+msgid "Add New Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:661
+msgid "New Other Categories Name"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:662
+#: classes/class-astra-portfolio-page.php:905
+msgid "Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:687
+msgid "Search Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:688
+msgid "All Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:689
+msgid "Parent Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:690
+msgid "Parent Tags:"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:691
+msgid "Edit Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:692
+msgid "Update Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:693
+msgid "Add New Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:694
+msgid "New Tags Name"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:695
+#: classes/class-astra-portfolio-page.php:906
+msgid "Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:755
+#. translators: %s is term name
+msgid "Created %s"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:772
+#. translators: %s is Term name.
+msgid "Exists %s"
+msgstr ""
+
+#: classes/class-astra-portfolio-block.php:298
+#: classes/class-astra-portfolio-shortcode.php:138
+#: tests/test-class-astra-portfolio-shortcode.php:31
+msgid "Quick View"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:580
+#: classes/class-astra-portfolio-page.php:581
+msgid "Importing Categories.."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:582
+msgid "Categories Imported Successfully."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:650
+#: classes/class-astra-portfolio-page.php:651
+msgid "Importing Other Categories.."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:652
+msgid "Other Categories Imported Successfully."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:693
+msgid "Invalid response."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:805
+#: classes/class-astra-portfolio-page.php:1433
+msgid "Settings"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:903 includes/add-new-form.php:12
+msgid "Add New"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:982
+msgid "Website"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:986
+msgid "Image"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:990
+msgid "Video"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:994
+msgid "Single Page"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1011
+msgid "General"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1016
+msgid "Style"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1021
+msgid "Advanced"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1251
+msgid "Settings saved successfully."
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1331
+msgid ""
+"ERROR! Cron schedules are disabled by setting constant DISABLE_WP_CRON to "
+"true.<br/>To start the import process please enable the cron by setting "
+"false. E.g. define( 'DISABLE_WP_CRON', false );"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1335
+msgid ""
+"ERROR! Cron schedules are disabled by setting constant ALTERNATE_WP_CRON to "
+"true.<br/>To start the import process please enable the cron by setting "
+"false. E.g. define( 'ALTERNATE_WP_CRON', false );"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1371
+#. translators: 1: The HTTP response code.
+msgid "Unexpected HTTP response code: %s"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1499
+msgid "Elementor"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1503
+msgid "Beaver Builder"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1507
+msgid "Brizy"
+msgstr ""
+
+#: classes/class-astra-portfolio-page.php:1511
+msgid "Gutenberg"
+msgstr ""
+
+#: classes/class-astra-portfolio-shortcode.php:93 includes/general-page.php:23
+msgid "Page Builder"
+msgstr ""
+
+#: classes/class-astra-portfolio-shortcode.php:212
+msgid "Loading..."
+msgstr ""
+
+#: classes/class-astra-portfolio-shortcode.php:213
+msgid "One moment please."
+msgstr ""
+
+#: classes/class-astra-portfolio-templates.php:139
+#. translators: %s template
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/add-new-form.php:14
+msgid "Quick create portfolio using below form."
+msgstr ""
+
+#: includes/add-new-form.php:22
+msgid "Title"
+msgstr ""
+
+#: includes/add-new-form.php:31
+msgid "Type"
+msgstr ""
+
+#: includes/add-new-form.php:35
+msgid "Select Type..."
+msgstr ""
+
+#: includes/add-new-form.php:48
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: includes/advanced-page.php:23
+msgid "Rewrite Slug"
+msgstr ""
+
+#: includes/advanced-page.php:28
+msgid "Rewrite portfolio url slug."
+msgstr ""
+
+#: includes/advanced-page.php:34
+msgid "Rewrite portfolio tags url slug."
+msgstr ""
+
+#: includes/advanced-page.php:40
+msgid "Rewrite portfolio categories url slug."
+msgstr ""
+
+#: includes/advanced-page.php:46
+msgid "Rewrite portfolio other categories url slug."
+msgstr ""
+
+#: includes/advanced-page.php:52
+msgid "Contribute to WP Portfolio"
+msgstr ""
+
+#: includes/advanced-page.php:58
+msgid ""
+"Collect non-sensitive information from your website, such as the PHP "
+"version and features used, to help us fix bugs faster, make smarter "
+"decisions, and build features that actually matter to you."
+msgstr ""
+
+#: includes/advanced-page.php:62
+msgid "Learn More"
+msgstr ""
+
+#: includes/general-page.php:27 includes/tmpl-portfolio-filters.php:9
+msgid "All"
+msgstr ""
+
+#: includes/general-page.php:36
+#. translators: %s is the documentation link.
+msgid ""
+"Choose your preferred page builder from the list. Starter templates built "
+"with chosen page builder will only be imported. Choose \"All\" to import "
+"available starter templates with different page builders."
+msgstr ""
+
+#: includes/general-page.php:41
+msgid "Import Starter Templates"
+msgstr ""
+
+#: includes/general-page.php:46
+msgid "Sync"
+msgstr ""
+
+#: includes/general-page.php:65
+#. translators: 1: Error message text.
+msgid ""
+"ERROR! There was a problem while testing the cron schedules on your "
+"website. The problem is: %s"
+msgstr ""
+
+#: includes/general-page.php:84
+#. translators: %s is the documentation link.
+msgid "Shortcode"
+msgstr ""
+
+#: includes/general-page.php:94
+#. translators: %s is the documentation link.
+msgid "Display"
+msgstr ""
+
+#: includes/general-page.php:98
+msgid "Enable sorting by categories."
+msgstr ""
+
+#: includes/general-page.php:103
+msgid "Enable sorting by other categories."
+msgstr ""
+
+#: includes/general-page.php:108
+msgid "Display sites search box."
+msgstr ""
+
+#: includes/general-page.php:113
+msgid "Display responsive buttons."
+msgstr ""
+
+#: includes/shortcode.php:45
+msgid "Search"
+msgstr ""
+
+#: includes/shortcode.php:46
+msgid "Search..."
+msgstr ""
+
+#: includes/shortcode.php:66
+msgid "Load More"
+msgstr ""
+
+#: includes/shortcode.php:86 includes/tmpl-no-items-found.php:12
+#: includes/tmpl-portfolio-list.php:167
+msgid "No items found."
+msgstr ""
+
+#: includes/style-page.php:21
+msgid "Show Portfolio On"
+msgstr ""
+
+#: includes/style-page.php:26
+msgid "Scroll"
+msgstr ""
+
+#: includes/style-page.php:27
+msgid "Click"
+msgstr ""
+
+#: includes/style-page.php:29
+msgid "Select the action to display more portfolio items."
+msgstr ""
+
+#: includes/style-page.php:35
+msgid "Thumbnail Hover Style"
+msgstr ""
+
+#: includes/style-page.php:40
+msgid "Default"
+msgstr ""
+
+#: includes/style-page.php:41
+msgid "Image Scroll"
+msgstr ""
+
+#: includes/style-page.php:48
+msgid "Scroll Speed"
+msgstr ""
+
+#: includes/style-page.php:53
+msgid "Enter the image scroll speed in seconds."
+msgstr ""
+
+#: includes/style-page.php:59
+msgid "Preview Bar"
+msgstr ""
+
+#: includes/style-page.php:64 includes/style-page.php:126
+msgid "Top"
+msgstr ""
+
+#: includes/style-page.php:65 includes/style-page.php:127
+msgid "Bottom"
+msgstr ""
+
+#: includes/style-page.php:67
+msgid "Set portfolio preview bar location."
+msgstr ""
+
+#: includes/style-page.php:73
+msgid "Call to Action"
+msgstr ""
+
+#: includes/style-page.php:78
+msgid "CTA will display at the end of the portfolio list. Shortcode / HTML allowed."
+msgstr ""
+
+#: includes/style-page.php:85
+msgid "Layout"
+msgstr ""
+
+#: includes/style-page.php:89
+msgid "Masonry"
+msgstr ""
+
+#: includes/style-page.php:93
+msgid "Enable Masonry Layout."
+msgstr ""
+
+#: includes/style-page.php:99
+msgid "Columns"
+msgstr ""
+
+#: includes/style-page.php:104
+msgid "Number of items per row. Supports maximum 4 items."
+msgstr ""
+
+#: includes/style-page.php:110
+msgid "Items Per Page"
+msgstr ""
+
+#: includes/style-page.php:115
+msgid "Select the number of items that should load per request."
+msgstr ""
+
+#: includes/style-page.php:121
+msgid "Show title at"
+msgstr ""
+
+#: includes/style-page.php:129
+msgid "Set portfolio title location."
+msgstr ""
+
+#: lib/nps-survey/classes/nps-survey-script.php:277
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: lib/nps-survey/classes/nps-survey-script.php:331
+#: lib/nps-survey/classes/nps-survey-script.php:449
+msgid "Nonce verification failed."
+msgstr ""
+
+#: vendor/wp-cli/core-command/src/Core_Command.php:758
+msgid "Wildcard DNS may not be configured correctly."
+msgstr ""
+
+#: vendor/wp-cli/entity-command/src/Site_Command.php:157
+msgid "Uncategorized"
+msgstr ""
+
+#: vendor/wp-cli/export-command/src/WP_Export_XML_Over_HTTP.php:20
+#: vendor/wp-cli/export-command/src/WP_Export_XML_Over_HTTP.php:25
+msgid "Export Error"
+msgstr ""
+
+#: vendor/wp-cli/extension-command/src/WP_CLI/CommandWithUpgrade.php:787
+msgid " Try again"
+msgstr ""
+
+#: vendor/wp-cli/extension-command/src/WP_CLI/CommandWithUpgrade.php:793
+msgid "API error. Try Again."
+msgstr ""
+
+#: vendor/wp-cli/media-command/src/Media_Command.php:159
+msgid "image"
+msgid_plural "images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/wp-cli/wp-cli/php/utils-wp.php:301
+msgid "Inactive Widgets"
+msgstr ""
+
+#: vendor/wp-cli/wp-cli/php/utils-wp.php:304
+msgid "Drag widgets here to remove them from the sidebar but keep their settings."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wpastra.com/pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display the portfolio of Starter Templates & other portfolio items easily "
+"on your website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.brainstormforce.com"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:558
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:559
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:560
+msgctxt "admin menu"
+msgid "WP Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:561
+msgctxt "add new on admin bar"
+msgid "Portfolio"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:562
+msgctxt "new portfolio item"
+msgid "Add New"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:616
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:652
+msgctxt "taxonomy general name"
+msgid "Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:685
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:617
+msgctxt "taxonomy singular name"
+msgid "Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:653
+msgctxt "taxonomy singular name"
+msgid "Other Categories"
+msgstr ""
+
+#: classes/class-astra-portfolio-admin.php:686
+msgctxt "taxonomy singular name"
+msgid "Tags"
+msgstr ""
+
+#: vendor/wp-cli/core-command/src/Core_Command.php:518
+#: vendor/wp-cli/core-command/src/Core_Command.php:595
+#. translators: placeholder is blog name
+#. translators: placeholder is user supplied title
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr ""
+
+#: vendor/wp-cli/entity-command/src/Site_Command.php:160
+#. translators: Default category slug
+msgctxt "Default category slug"
+msgid "Uncategorized"
+msgstr ""

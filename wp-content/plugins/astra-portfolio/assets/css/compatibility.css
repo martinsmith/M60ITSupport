@@ -1,0 +1,5 @@
+/* Elementor Widget: "Image Carousel" - Slick slider does not works well in safari brownser in iframe */
+.elementor-image-carousel { width: 1px; min-width: 100%; *width: 100%; }
+
+/* Elementor Widget: "Swiper" - Slick slider does not works well in safari brownser in iframe */
+.elementor-swiper .swiper-wrapper { width: 1px; min-width: 100%; *width: 100%; }

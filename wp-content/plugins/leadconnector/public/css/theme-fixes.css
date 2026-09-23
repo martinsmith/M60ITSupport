@@ -1,0 +1,14 @@
+/* Twenty Twenty block themes - ensure minimum header padding */
+body[class*="wp-theme-twentytwenty"] header.wp-block-template-part {
+    padding-top: max(1rem, var(--wp--style--root--padding-top, 0px)) !important;
+    padding-left: max(1.5rem, var(--wp--style--root--padding-left, 0px)) !important;
+    padding-right: max(1.5rem, var(--wp--style--root--padding-right, 0px)) !important;
+}
+
+/* Twenty Twenty block themes - ensure minimum footer padding */
+body[class*="wp-theme-twentytwenty"] footer.wp-block-template-part {
+    padding-left: max(1.5rem, var(--wp--style--root--padding-left, 0px)) !important;
+    padding-right: max(1.5rem, var(--wp--style--root--padding-right, 0px)) !important;
+    padding-bottom: max(1rem, var(--wp--style--root--padding-bottom, 0px)) !important;
+}
+

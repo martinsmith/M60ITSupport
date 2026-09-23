@@ -1,0 +1,223 @@
+v1.13.6 - 13-August-2026
+- Fix: Portfolio block render issue, block disappears shortly after loading on desktop screen sizes.
+- Fix: Portfolio grid did not rearrange into tablet or mobile columns while resizing the browser, requiring a page refresh.
+
+v1.13.5 - 23-July-2026
+- Improvement: Updated the portfolio block to use the WordPress-provided React runtime for compatibility with React 19 in upcoming WordPress versions.
+
+v1.13.4 - 02-April-2026
+- Improvement: Improved code quality syntax and security checks for better coding standards and practices.
+
+v1.13.3 - 19-November-2025
+- Improvement: Updated dependent libraries.
+
+v1.13.2 - 18-June-2025
+- Improvement: Refactored and optimized the codebase to improve code quality.
+
+v1.13.1 - 23-April-2025 
+- Fix: Resolved the issue for function _load_textdomain_just_in_time was called incorrectly in WP 6.8.
+
+v1.13.0 - 19-March-2025
+- This update addressed a security bug. Please make sure you are using the latest version on your website.
+- New: Added NPS Survey to gather your valuable feedback for WP Portfolio.
+- Fix: Removed Astra Portfolio taxonomies from WordPress sitemap
+
+v1.12.1 - 20-January-2025
+- Improvement: Improved code quality syntax and security checks for better coding standards and practices.
+
+v1.12.0 - 28-November-2024
+- New Feature: Introduced a new WP-Portfolio block, allowing you to create and customize portfolios seamlessly in block-based themes.
+- Improvement: Enhanced compatibility with WordPress 6.7.1 for a smoother experience.
+
+v1.11.9 - 18-July-2024
+- Improvement: Added 'aria-label' attributes for improved accessibility in links.
+- Improvement: WordPress version 6.6 compatibility added.
+- Fix: Activate License option not visible.
+- Fix: Added support for browser back button to close portfolio items.
+- Fix: Security scanner showing warning for minified JS files.
+
+v1.11.8 - 21-November-2023
+- Improvement: Added compatibility to PHP version 8.1.
+- Improvement: Added compatibility to WordPress version 6.4.1.
+- Improvement: Added support to WordPress VIP rule-set.
+- Fix: Issue with WP-CLI mechanism.
+
+v1.11.7 - 4-September-2023
+- Improvement: Added compatibility to WordPress version 6.3.1.
+
+v1.11.6 - 13-July-2023
+- Fix: Load more button not showing when Thumbnail hover style option is set to default.
+
+v1.11.5 - 20-June-2023
+- Improvement: Added an option to place portfolio item title above the design.
+- Improvement: Added an option to change thumbnail scroll speed.
+- Improvement: Added the Grid CSS support for the Astra theme.
+- Fix: Categories and other categories are not translatable with WPML.
+- Fix: Fixed double lightbox issue when clicked on an image in Elementor.
+- Fix: Image lightbox content RTL issue fixed.
+- Fix: Showing load more button when no posts are remaining. 
+
+v1.11.4
+- Improvement: Add new filter to change the text `All` for filters.
+
+v1.11.3 - 31-December-2020
+- Improvement: Compatibility with WordPress 5.6.
+
+v1.11.2 - 13-August-2020
+- Improvement - Compatibility to WordPress 5.5.
+
+v1.11.1 - 30-June-2020
+- Fix: Portfolio meta fields not saving the values due to mistyping the nonce field.
+
+v1.11.0 - 29-June-2020
+- Improvement: The sync library batch process importer.
+- Improvement: Added the 100vh viewport height only for the click on button event.
+- Fix: Deleted portfolio not importing after re-import.
+- Fix: Getting the empty space at the bottom when we set the status bar position to the top.
+- Fix: Portfolio did not load if permalink structure is set as Plain.
+- Fix: The option par-page renamed with per_page (Managed backward compatibility).
+
+v1.10.0 - 18-June-2020
+* New: Users can now share non-personal usage data to help us test and develop better products. ( <a href="https://store.brainstormforce.com/usage-tracking/?utm_source=changelog&utm_medium=changelog&utm_campaign=usage_tracking" target="_blank" rel="noopener">Know More</a> )
+
+v1.9.0 - 17-March-2020
+* New: Added sitemap support for the Rank Math plugin.
+* Fix: Due to extra padding the Tablet and Mobile viewport was wrong.
+* Fix: Portfolio wrapper class which causes an issue if we use portfolio shortcode into the single page portfolio type content.
+
+v1.8.2 - 22-January-2019
+* Security Fix: Cross-site scripting (XSS) vulnerability.
+
+v1.8.1 - 24 October 2019
+* Improvement: Excluded the portfolio links from the Yoast SEO plugins sitemap.
+* Improvement: The `view` link appears only for the 'Single Page' portfolio type from the portfolio list.
+* Fix: Elementor lightbox setting affects to image portfolio type lightbox.
+
+v1.8.0 - 19 August 2019
+* New: Added the page builder selection option. So, We can now able to import the sites from the selected page builder.
+* Fix: Sites import status trigger the infinite AJAX.
+
+v1.7.2 - 19 June 2019
+* Fix: Batch import status loader showing status infinite.
+
+v1.7.1 - 13 June 2019
+* Fix: Option values did not save from the settings page.
+
+v1.7.0 - 6 June 2019
+* New: Categories setting page options into tabs. Such as General, Style, and Advanced.
+* Improvement: If cron is not supported for the website then showing an error such notice.
+* Improvement: Showing the current batch import process into the 'Sync' button to know the status of the current batch process. E.g. 'Importing Categories', 'Importing Sites 18 of 241' etc.
+* Improvement: Updated menu title from 'Portfolio' with 'WP Portfolio'.
+* Improvement: Updated 'Import' button with 'Sync' and improve the logic for importing delete and new sites.
+* Improvement: Removed 'Force Fetch' link from the settings page. Now, Deleted and new portfolio sites are imported with the 'Sync' button.
+* Fix: If a category contains character & then it converts to the 'amp;'
+* Fix: `Quick View` text is not translatable due to it is stored into the database.
+
+v1.6.0 - 12 April 2019
+* New: Added option to enable/disable the Masonry Layout. (Screenshot ) [https://cl.ly/86f44b9e5bdb]. This option will show the difference only on the desktop. Masonry Layout will be disabled for mobile devices by default.
+* Fix: Existing Masonry Layout messed up on a mobile device.
+
+v1.5.1 - 5 April 2019
+* Fix: Portfolios not loading on click on category due to Image Scroll grid style issue.
+
+v1.5.0 - 2 April 2019
+* New: New Image Scroll option for Portfolio Thumbnail Image.
+
+v1.4.2 - 5 March 2019
+* Improvement: Removed unwanted parameters from rest API request.
+* Improvement: Importing all the portfolio items. Recently we have imported only 100 sites at a time due to WordPress have 100 item limit for each request.
+* Fix: Updated default values of shortcode parameter `other-category-show-all` and `category-show-all` which is used to show `All` from the category and other categories respectively.
+* Fix: PHP warning while bulk updating portfolio items.
+
+v1.4.1 - 21 Dec 2018
+* Improvement: Disabled the Gutenberg support for only portfolio post type.
+
+v1.4.0 - 20 Dec 2018
+* New: Added call to action for the single page portfolio type.
+* New: Added translation files support. The translation files are load from the `/language/` directory.
+* New: Added shortcode param `category-show-all` to hide/show the `All` from the category. E.g. [wp_portfolio category-show-all="no"] it hide the `All` from the category.
+* New: Added shortcode param `other-category-show-all` to hide/show the `All` from the other category. E.g. [wp_portfolio other-category-show-all="no"] it hide the `All` from the other category.
+* New: Added shortcode param `quick-view-text` to change the "Quick View" text. Default: 'Quick View'. E.g. `[wp_portfolio quick-view-text="Preview"]` It changes the "Quick View" text with "Preview".
+* New: Added shortcode param `show-quick-view` to show/hide the quick preview button. Use values yes/no to show/hide the button. Default: 'yes'. E.g. `[wp_portfolio show-quick-view="no"]` It hide the quick view button.
+* Fix: Generated the invalid portfolio if we duplicate it from the BB template.
+* Fix: Elementor demo site scale on iPhone safari device.
+* Fix: Portfolio item unlist if it created with BB duplicate layout option.
+
+v1.3.0 - 6 July 2018
+* New: Introducing options 'Items Per Page' & 'Show Portfolio On' to show the portfolio items on click on button or on page scroll.
+* New: Added filter `astra_portfolio_default_portfolio_type` to set the default portfolio type when we add new portfolio item. Valid types - page, image, video, iframe.
+* New: Added localize variable `scrollToTop` to disable the scroll to top on click on category link. We can use filter `astra_portfolio_shortcode_localize_vars` to enable/disable it.
+* Improvement: Added CSS class of current opened portfolio item and its type to the iFrame.
+* Improvement: Showing the portfolio menu for edit_posts capability users.
+* Improvement: Category does not highlighted on click on other category.
+* Improvement: Used get_rest_url() instead of site_url() to get the rest api URL.
+
+v1.2.0 - 19 June 2018
+* New: Added option 'Add Call-to-action' for Website portfolio item. This allows you to add a call-to-action on the preview bar.
+* Improvement: Added filter `astra_portfolio_api_site_uri` to change the Rest API URL.
+* Fix: Website portfolio item option 'open in new tab' not working because, missing of the CSS selector.
+
+v1.1.1 - 14 June 2018
+* Improvement: Updated option `Open in iFrame` from `Single Page` portfolio item with `Open Portfolio Item in` which includes options `New Tab, Same Tab & iFrame`. Default option is New Tab.
+
+v1.1.0 - 13 June 2018
+* New: Added filter `astra_portfolio_post_type_args` to change the post type args. E.g. post slug, query_var, supports etc.
+* New: Added option `Open in iFrame` for `Single Page` portfolio item. It open the portfolio in iFrame instead of new tab.
+* New: Added filter `astra_portfolio_settings` to change the default portfolio settings. E.g. Change per page load items by setting `per-page` value.
+* New: We have disable the portfolio items from the query. Now, Added filter `astra_portfolio_exclude_portfolio_items` to enable the portfolio items on front-end.
+* Improvement: Added support of masonry and lightbox for mobile devices.
+* Improvement: Divi page builder override the Portfolio grid and filter CSS. Override the CSS of Portfolio grid and filter for Divi Builder.
+
+v1.0.7 - 21 May 2018
+* Improvement: Added CSS `text-decoration:none` for the filter links. Some theme/plugins added underline for the anchors.
+* Improvement: Added link to force import all the portfolio items.
+* Improvement: Disable import button and unhide the import sites section.
+* Improvement: Loading all categories and other categories in the filter list.
+* Fix: All button shows all the posts even when limited categories/tags are provided.
+
+v1.0.6 - 7 March 2018
+* New: Added template override support for portfolio shortcode. Now we can override the markup from child theme.
+* New: Force fetch all the Astra Started Sites once again. By default WP Portfolio does not duplicate the sites when importing. Adding query parameter `force-fetch-all-sites` to the URL will just force fetch the Astra Sites once again.
+* Improvement: Alt and title tag support added for the portfolio image.
+* Fix: Reload masonry once loaded all images with Lazy load.
+
+v1.0.5 - 10 January 2018
+* New: Added reorder portfolio support with the plugin `Post Types Order` (https://wordpress.org/plugins/post-types-order/)
+* New: Added shortcode `[wp_portfolio]` which is alternative for `[astra-portfolio]`. `[astra-portfolio]` will be deprecated in the future versions of the plugin.
+* New: Added new filter `astra_portfolio_shortcode_localize_vars`.
+* New: Added an option to change to portfolio url slug.
+* New: Added support for shareable portfolio URLs.
+* Improvement: Changed the plugin name from `Astra Portfolio` with `WP Portfolio`.
+* Improvement: Already imported demos will not be re-imported again.
+
+v1.0.4 - 8 January 2018
+* New: Added checkbox option 'Open in New Tab' for 'Website' portfolio it open the website portfolio in new tab instead of iFrame (Popup).
+* Improvement: Added minified files support. To load un-minified files add `define( 'SCRIPT_DEBUG', true );` in `wp-config.php` file.
+* Enhancement: Settings page message messed up message.
+* Fix: Setting large portfolio thumbnail image if medium size image not found.
+
+v1.0.3 - 26 December 2017
+* New: Added 'tags' support for portfolio. It is only used in shortcode E.g. [astra-portfolio tags='7,8']
+* New: Added 'show-search' shortcode param for hide/show search box E.g. [astra-portfolio show-search='yes']
+* New: Added 'show-categories' shortcode param for hide/show categories E.g. [astra-portfolio show-categories='yes']
+* New: Added 'show-other-categories' shortcode param for hide/show other categories E.g. [astra-portfolio show-other-categories='yes']
+* New: Added 'columns' support for shortcode. E.g. [astra-portfolio columns='2'] (Expect value max 4).
+* Enhancement: Disable the page builder editor buttons & edit url fields for portfolio type (website, image & video).
+* Enhancement: Added page builder support for single page portfolio.
+* Improvement: Removed character question mark (?) from the portfolio URL which prevent caching.
+* Fix: Magnific popup close button CSS conflict.
+
+v1.0.2 - 8 December 2017
+* New: Added simple form for adding new portfolio. It only ask portfolio title and type.
+* New: Added support for image portfolio which open in lightbox.
+* New: Added support for video portfolio which open in lightbox.
+* New: Added support for single page portfolio which open in separate page for adding more details about portfolio.
+* Fix: Removed bundled products for Astra Premium Sites while updating the plugin.
+
+v1.0.1 - 5 December 2017
+* Improvement: Added portfolio image post meta for setting portfolio image.
+* Improvement: Removed featured image from Astra Portfolio post type.
+* Fix: On multisite disabled license activation link on individual site.
+
+v1.0.0 - 4 December 2017
+* Initial release.
